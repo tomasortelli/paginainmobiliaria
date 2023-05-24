@@ -1,0 +1,197 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f7f8f9;
+    /* max-width: 1200px; */
+    /* width: 80%;
+    margin: 0 auto; */
+}
+
+body {
+    background-image: url(Banner\ principal.jpg);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* main {
+    width: 1200px;
+} */
+
+/* p,h1,h2,h3,h4,h5,h6,button,img,ul {
+    margin-right: 300px;
+    margin-left: 300px;
+} */
+
+/* .contenedor {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+} */
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #065078;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+h3 {
+    color: #065078;
+    font-size: 22px;
+    font-family: 700;
+}
+
+.tituloresaltado {
+    color: #feba01;
+    font-weight: 700;
+}
+
+p{
+    color: #5c727d;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.aclaracion {
+    color: #81b0c1;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #0650784d;
+    padding: 0.1px;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+}
+
+li {
+    color: white;
+    list-style: none;
+    margin: 20px;
+}
+
+/* Otra forma de ponerle color al texto del header: diciendole que el anchor de header sea de tal color
+header a {
+    color: white;
+} */
+
+a {
+    text-decoration: none;
+}
+
+.boton {
+    background-color: #08608f;
+    padding: 12px;
+    border: none;
+}
+
+.boton a {
+    font-family: nunito sans;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.boton:hover {
+    background-color: #03496e;
+    
+}
+
+.Secciones :hover {
+    color: #feba01;
+}
+
+.Seccion-1 {
+    color: white;
+    background-size: 1920px 765px;  
+    size: contain;
+    padding-top: 7%;
+    padding-bottom: 25%;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center; */
+    text-align: center;
+}
+
+.parrafoblanco {
+    color: white;
+}
+
+
+.Seccion-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.inicio-quienessomos {
+    border-radius: 5%;
+}
+
+.Seccion-3 {
+    background-color: #e4ebee;
+}
+
+.Subtitulos-de-secciones {
+    text-align: center;
+}
+
+.Seccion-5-servicios {
+    background-color: #e4ebee;
+}
+
+.articulos-servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    text-align: center;
+}
+
+.articulos-servicios div {
+    background-color: white;
+    padding : 3rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    border-radius: 5%;
+    box-shadow: black;
+}
+
+.articulos-servicios img:hover {
+    width: 26%;
+}
+
+footer {
+    background-color:#065078;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
